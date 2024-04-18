@@ -122,7 +122,7 @@
    div#bck-img{
       width: 65%;
       margin:0 auto;
-      background-image: url("/Images/newcover.jpg");
+      background-image: url("Images/newcover.jpg");
       background-position: center;
       background-size:;
       background-repeat: no-repeat;
