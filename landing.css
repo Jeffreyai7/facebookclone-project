@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(232, 233, 243);
+    height: 100vh;
+    padding: 20px 0;
+  }
+
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    width: 60%;
+  } 
+  
+  .logo-text {
+    text-align: center;
+  }
+  
+  .logo-text img {
+    width: 18.75rem;
+  }
+  
+  .tagline {
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom:1.25rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-box {
+    width: 25rem;
+    background-color: #fff;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+
+  .form-group {
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 0.625rem;
+    border: 2px solid #ccc;
+    border-radius: 0.3125rem;
+  }
+  
+  .btn-login {
+    display: inline-block;
+    width: 90%;
+    padding: 0.625rem;
+    background-color: #6691e9;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn-login:hover {
+    background-color: #3b5998;
+  }
+  
+  .forgot-password {
+    color: #4267B2;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .create-account {
+    text-align: center;
+  }
+  
+  .create-account-btn {
+    display: inline-block;
+    width: 60%;
+    padding: 0.625rem;
+    background-color: #0ab33d ;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.625rem;
+    text-decoration: none;
+  }
+  
+  .create-account-btn:hover {
+    background-color:#2ce463;
+  }
+  
+  .create-page {
+    font-size: 0.875rem;
+    color: #555;
+  }
+
+  @media screen and (max-width: 430px) {
+    .login-box{
+        width: 17rem;
+    }
+  }
